@@ -66,11 +66,10 @@ header .navbar-nav li a {
 }
 
 header .navbar-nav li a:hover {
-    color: #fff !important;
+    font-weight: bold;
 }
 
 header .navbar-nav li a.active {
-    color: #fff !important;
     font-weight: bold;
 }
 
@@ -145,9 +144,15 @@ header .navbar-nav li a.active {
 }
 
 .img-content h2 {
-    color: #fff;
-    font-weight: 700;
+    font-weight: bolder;
     margin-bottom: 20px;
+    width: 440px;
+    font-size: 45px;
+    background: rgb(255, 188, 3);
+    background: linear-gradient(90deg, rgba(255, 188, 3, 1) 0%, rgba(255, 153, 0, 1) 35%, rgba(56, 181, 0, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .img-content1 h2 {
@@ -169,11 +174,11 @@ header .navbar-nav li a.active {
 }
 
 .img-content1 .btn {
-    color: #0661a2;
+    color: #ff5812;
     padding: 10px 25px;
     border-radius: 5px;
     background: transparent;
-    border: 2px solid #0661a2;
+    border: 2px solid #ff5812;
     font-weight: 800;
 }
 
@@ -224,17 +229,17 @@ section.tabs h3 {
     background: #f4f4f4;
     border: none;
     font-size: 14px;
-    border-bottom: 2px solid #0661a2;
-    color: #0661a2;
+    border-bottom: 2px solid #ff5812;
+    color: #ff5812;
 }
 
 .nav-tabs li.active a:hover,
 .nav-tabs li.active a:focus {
     background: #f4f4f4;
     border: none;
-    border-bottom: 2px solid #0661a2;
+    border-bottom: 2px solid #ff5812;
     font-size: 14px;
-    color: #0661a2;
+    color: #ff5812;
 }
 
 .nav-tabs li a:hover {
@@ -269,7 +274,7 @@ section.tabs .tab-content {
 .box h4 {
     font-size: 20px;
     font-weight: bold;
-    color: #0661a2;
+    color: #ff5812;
 }
 
 .box p {
@@ -323,7 +328,7 @@ section.tabs .tab-content {
 
 .footer {
     padding: 20px 50px;
-    background-color: #0661a2;
+    background-color: #ff5812;
     border-top: 1px solid #fff;
 }
 
@@ -408,7 +413,7 @@ section.tabs .tab-content {
 
 .country-selection {
     text-align: left;
-    background-color: #0661a2;
+    background-color: #ff5812;
     padding: 30px 45px;
     color: #fff;
     line-height: 25px;
@@ -434,7 +439,7 @@ section.tabs .tab-content {
 }
 
 .become-volunteer {
-    background-color: #0661a2;
+    background-color: #ff5812;
     padding: 40px;
 }
 
@@ -607,7 +612,7 @@ section.tabs .tab-content {
     top: 2px;
     width: 8px;
     height: 14px;
-    border: solid #0661a2;
+    border: solid #ff5812;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -722,7 +727,7 @@ section.upcoming {
 }
 
 section.upcoming h3 {
-    color: #0661a2;
+    color: #ff5812;
     font-weight: 600;
 }
 
@@ -742,7 +747,7 @@ section.upcoming h3 {
 }
 
 .bg-blue {
-    background-color: #0661a2;
+    background-color: #ff5812;
     border-radius: 30px;
     box-shadow: 0 0 0.7px #000;
     padding: 40px;
@@ -769,7 +774,7 @@ section.upcoming h3 {
     font-weight: 700;
     font-size: 35px;
     text-align: center;
-    color: #0661a2;
+    color: #ff5812;
 }
 
 .faq .panel-group {
@@ -781,7 +786,7 @@ section.upcoming h3 {
 }
 
 .faq .panel-heading {
-    color: #0661a2;
+    color: #ff5812;
     padding: 25px 20px;
     background-color: #e2e2e2;
 }
@@ -802,7 +807,7 @@ section.upcoming h3 {
 .tabs h2 {
     font-size: 22px;
     font-weight: 900;
-    color: #0661a2;
+    color: #ff5812;
     text-align: center;
     padding: 20px 0;
 }
@@ -1076,7 +1081,7 @@ section.upcoming h3 {
 
 .modal-body h2 {
     font-size: 18px;
-    color: #0661a2;
+    color: #ff5812;
     font-weight: 700;
     padding: 20px;
 }
@@ -1146,7 +1151,7 @@ section.upcoming h3 {
     section.tabs h2 {
         font-size: 18px;
         font-weight: 900;
-        color: #0661a2;
+        color: #ff5812;
         text-align: center;
         padding: 10px;
         margin: 0;
@@ -1184,7 +1189,7 @@ section.upcoming h3 {
     }
     .country-selection {
         text-align: center;
-        background-color: #0661a2e6;
+        background-color: #ff5812 e6;
         padding: 10px;
         color: #fff;
         line-height: 21px;
@@ -1294,4 +1299,46 @@ section.upcoming h3 {
     width: 100%;
     background: rgba(0, 0, 0, 0.75) url(../images/loading.gif) no-repeat center center;
     z-index: 10000;
+}
+
+.address-block {
+    background-color: #000;
+    padding: 25px;
+    text-align: left;
+}
+
+.address-block a {
+    color: #2da4d9;
+}
+
+.address-block img {
+    width: auto;
+}
+
+.phone {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.email {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.subscribe input {
+    width: 333px !important;
+    padding: 20.5px 10px;
+    border: 1px solid #39449c;
+    border-right: 0;
+    border-radius: 0;
+    margin-right: -6px;
+    margin-top: -4px;
+}
+
+.subscribe button {
+    margin: 0;
+    display: inline-block;
+    padding: 11px 30px !important;
 }
