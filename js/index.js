@@ -3,16 +3,16 @@ $('.owl-carousel').owlCarousel({
     margin: 10,
     nav: true,
     autoplay: true,
-    items: 1,
+    items: 2,
     responsive: {
         0: {
-            items: 1
+            items: 2
         },
         600: {
-            items: 1
+            items: 2
         },
         1000: {
-            items: 1
+            items: 2
         }
     },
     navText: ["<img src='images/left-arrow.png'>", "<img src='images/right-arrow.png'>"]
