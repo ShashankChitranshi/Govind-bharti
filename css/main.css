@@ -38,8 +38,8 @@ header .navbar-default {
 }
 
 .blueHeader {
-    background-color: #0661a2 !important;
-    border-color: #04538c8c !important;
+    background-color: #ff5812 !important;
+    border-color: #fff !important;
 }
 
 .navbar-brand {
@@ -1081,11 +1081,13 @@ section.upcoming h3 {
     min-height: calc(100vh - 66px);
     margin-bottom: 0px;
 }
+
 .career-detail h5 {
     font-size: 16px;
     font-weight: bold;
     padding: 13px 0 0;
 }
+
 .career-detail li {
     margin: 0;
     font-size: 14px;
@@ -1095,9 +1097,11 @@ section.upcoming h3 {
     padding: 10px 0;
     color: #012e4e;
 }
-.pad60{
+
+.pad60 {
     padding: 60px;
 }
+
 @media (max-width: 767px) {
     .navbar-brand {
         padding: 3px;
